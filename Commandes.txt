@@ -1,0 +1,13 @@
+
+créer le repository : my-react-site
+
+git init
+git remote -v
+git remote add origin https://github.com/soufianetalibi/my-react-site.git
+git remote set-url origin https://github.com/soufianetalibi/my-react-site.git
+git remote -v
+git add . 
+git status
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
