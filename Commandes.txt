@@ -1,6 +1,11 @@
 
 créer le repository : my-react-site
 
+
+installer nodejs sur https://nodejs.org/fr/download
+cd my-react-site
+npm install --save-dev @vitejs/plugin-react
+git add package*.json
 git init
 git remote -v
 git remote add origin https://github.com/soufianetalibi/my-react-site.git
@@ -11,3 +16,8 @@ git status
 git commit -m "Initial commit"
 git branch -M main
 git push -u origin main
+
+
+
+
+====

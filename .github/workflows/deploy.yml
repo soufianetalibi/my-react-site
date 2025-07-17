@@ -18,6 +18,13 @@ jobs:
         with:
           node-version: 18
 
+      - name: Clean cache and config
+        run: |
+          rm -rf node_modules
+          rm -rf dist
+          rm -f postcss.config.mjs postcss.config.cjs
+          npm cache clean --force
+
       - name: Install dependencies
         run: npm install
 
